@@ -4,43 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" media="screen and(max-width:768px)" href="CSS/mobile.css">
+     
+     <link rel="stylesheet" href="/CSS/style.css">
+     
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="/CSS/mobile.css">
+
     <title>Izyworld | Portfolio </title>
 </head>
 <body>
-    <nav class="container">
-        <div class="main-nav">
-             <img src="/mylogo1.png" alt="izyworld">
+
+
+    <nav class="main-nav" >
+        <div class="container">
+        <div class="nav-content">
+             <img src="/IMG/mylogo1.png" alt="izyworld">
         <ul class="list">
             <li><a href="#home">Home</a></li>
-            <li><a href="#home">Projects</a></li>
-            <li><a href="#home">Skills</a></li>
-            <li><a href="#home">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="btn">
-        <a href="#" class="btn">Download CV</a>
-        </di>
-      
+        <!-- <div>
+        <a href="#" class="nav-btn">Download CV</a>
+        </div> -->
+        </div>
         </div>
     </nav>
 
-    <header class="main-header">
+    <!-- Header Section -->
+    <header class="main-header" id="home">
         <div class="container">
             <div class="header-content">
             <div class="header-left">
-            <img src="/Profile_Pix.jpg" alt="">
+            <img src="/IMG/Profile_pix.png" alt="">
             <a href="#" class="btn">Download Cv</a>
         </div>
         <div class="header-right">
             <h3> Hello, I'm</h3>
-            <h1>Izyworld</h1>
+            <h2>Izyworld</h2>
             <div class="list">
-            <p>Graphic Designer</p>
-            <p>Video Editing</p>
-            <p>Full-Stack Developer</p>
-            <p>Crypto Trader</p>
+            <p>Graphic Designer <span>Video Editing</span></p>
+            <p>Full-Stack Developer <span>Crypto Trader</span></p>
             </div>
             
         </div>
@@ -48,5 +56,82 @@
         </div>
        
     </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+            <div class="about-left">
+            <h2>About Me</h2>
+            <p>I am a multidisciplinary professional with experience in graphic design, video editing, and full-stack development. My work blends creativity with technical expertise to deliver visually compelling content and functional digital solutions.</p>
+            <p>I also explore the fast-moving world of crypto trading analyzing markets, testing strategies, and staying sharp in a space that never sleeps. For me, creativity and logic go hand in hand. </p>
+
+            </div>
+            
+            <div class="about-right">
+                <p>I like working across disciplines, learning new things, and collaborating with others who are just as passionate about what they do.</p>
+                <ul>
+                <li><a href="#" class="btn">ReadMore</a></li>
+                <li><a href="#" class="btn">ReadMore</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+        <div class="projects-content">
+    <a href="#" class="active">Projects <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#">Skills <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#">Testimonials <i class="fa-solid fa-chevron-right"></i></a>
+     </div>
+    </div>
+    </section> 
+
+    <!-- Footer Section -->
+    <footer class="main-footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out for collaborations or just a chat!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+
+                    
+                    <!--input form here  -->
+                    </form>
+                </div>
+                <div class="footer-right">
+                    <h2>Follow Me</h2>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Izyworld. All rights reserved.</p>
+                <!-- <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul> -->
+        </div>
+        </div>
+        </footer>
 </body>
 </html>
